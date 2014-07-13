@@ -9,4 +9,8 @@ public enum Value {
 	private Value(int value) {
 		this.value = value;
 	}
+	
+	public int getInt() {
+		return value;
+	}
 }

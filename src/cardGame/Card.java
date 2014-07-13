@@ -28,4 +28,8 @@ public class Card {
 	public Suit getSuit() {
 		return suit;
 	}
+	
+	public void printInfo() {
+		System.out.println(number+" of "+suit);
+	}
 }

@@ -1,7 +1,7 @@
 package cardGame;
 
 public enum Suit {
-	HEARTS(0), DIAMONDS(1), CLUBS(2), SPADES(3);
+	Hearts(0), Diamonds(1), Clubs(2), Spades(3);
 	
 	private int value;
 		

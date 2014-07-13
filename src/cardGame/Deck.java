@@ -1,6 +1,8 @@
 package cardGame;
 
 import java.util.ArrayList;
+import java.util.Collections;
+
 import cardGame.Card;
 import cardGame.Suit;
 
@@ -16,6 +18,7 @@ public class Deck {
 		
 	}
 	private
+		// Why is an arrayList best for this?!
 		ArrayList<Card> deck = new ArrayList<Card>();
 
 	public void printAllCards() {
@@ -24,7 +27,15 @@ public class Deck {
 		}
 	}
 	
+	public Card getCard(int n) {
+		return deck.get(n);
+	}
+	
+	public ArrayList<Card> getDeck() {
+		return deck;
+	}
+	
 	public void shuffleCards() {
-		
+		Collections.shuffle(deck);
 	}
 }
