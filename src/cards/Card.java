@@ -1,7 +1,7 @@
-package cardGame;
+package cards;
 
-import cardGame.Suit;
-import cardGame.Value;
+import cards.Suit;
+import cards.Value;
 
 public class Card {
 	Card(Value number, Suit suit) {

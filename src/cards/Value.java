@@ -1,4 +1,4 @@
-package cardGame;
+package cards;
 
 public enum Value {
 	//HEARTS(0), DIAMONDS(1), CLUBS(2), SPADES(3);

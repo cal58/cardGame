@@ -1,4 +1,4 @@
-package cardGame;
+package cards;
 
 public enum Suit {
 	Hearts(0), Diamonds(1), Clubs(2), Spades(3);
@@ -8,4 +8,9 @@ public enum Suit {
 	private Suit(int value) {
 		this.value = value;
 	}
+
+	public int getValue() {
+		return value;
+	}
+
 }

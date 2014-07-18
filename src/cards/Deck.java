@@ -1,13 +1,13 @@
-package cardGame;
+package cards;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import cardGame.Card;
-import cardGame.Suit;
+import cards.Card;
+import cards.Suit;
 
 public class Deck {
-	Deck() {
+	public Deck() {
 		// Initialised with cards in order (H,D,C,S ace->King)
 		for (Suit s : Suit.values()) {
 			for (Value v : Value.values()) {
