@@ -5,6 +5,11 @@ import java.util.Scanner;
 import cards.Card;
 import cards.Deck;
 
+/**
+ * Higher or Lower command game. Works by command line input.
+ * @author camilla
+ *
+ */
 public class HigherOrLower {
 	
 	public static void main(String[] args) {

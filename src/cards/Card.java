@@ -3,6 +3,11 @@ package cards;
 import cards.Suit;
 import cards.Value;
 
+/**
+ * Base class for a card from a standard deck. Card has a number and a suit which cannot be changed, but can be queried.
+ * @author camilla
+ *
+ */
 public class Card {
 	Card(Value number, Suit suit) {
 		this.number = number;

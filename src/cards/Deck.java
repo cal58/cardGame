@@ -6,6 +6,12 @@ import java.util.Collections;
 import cards.Card;
 import cards.Suit;
 
+/**
+ * Class for a deck of cards. Has a card of every suit with every value (where suits and values are defined in the eponymous enums).
+ * Cards can be shuffled, a list of cards printed, or the nth card returned.
+ * @author camilla
+ *
+ */
 public class Deck {
 	public Deck() {
 		// Initialised with cards in order (H,D,C,S ace->King)
