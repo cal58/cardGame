@@ -22,10 +22,6 @@ public class Card {
 		Value number;
 		Suit suit;
 	
-	//public static void main(String[] args) {
-	//	System.out.println(Suit.HEARTS);
-	//}
-		
 	public Value getNumber() {
 		return number;
 	}
@@ -34,7 +30,10 @@ public class Card {
 		return suit;
 	}
 	
+	/**
+	 * Prints a sensible string with the number and suit of the card (with newline).
+	 */
 	public void printInfo() {
-		System.out.println(number+" of "+suit);
+		System.out.print(number+" of "+suit+"\n");
 	}
 }
